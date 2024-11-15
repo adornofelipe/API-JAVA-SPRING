@@ -17,7 +17,7 @@ public class UsuarioRepository {
 
         if(usuario.getPassword()==null)
             throw new CampoObrigatorioException("password");
-        
+
         if (usuario.getId()==null)
             System.out.println("Save - Recebendo o usuario na camada de repositorio");
         else
